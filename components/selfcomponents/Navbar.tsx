@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link href="/#about" className='text-white relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>About</Link>
         
         <Link href="/organisors" className='text-white relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>Organisers</Link>
-        <Link href="/timeline" className='text-white relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>Schedule</Link>
+        {/*<Link href="/timeline" className='text-white relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>Schedule</Link>*/}
         <Link href="/sponsors" className='text-white relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>Sponsors</Link>
         <Link href="mailto:hive@mlritm.ac.in" className='text-white relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>Contact</Link>
       </div>
