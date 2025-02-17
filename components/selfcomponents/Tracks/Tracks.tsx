@@ -31,10 +31,9 @@ const cardData = [
 
 export default function Tracks() {
   return (
-    <section className="relative min-h-screen bg-black overflow-hidden">
-      
+    <section className=" bg-contain overflow-hidden">
+      <StarsBackground/>
       <div id="about" className="py-12 pb-5 bg-black">
-      <StarsBackground />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="font-mono text-4xl font-extrabold text-white sm:text-5xl">
@@ -42,7 +41,7 @@ export default function Tracks() {
             </h2>
           </div>
         </div>
-      
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
         {cardData.map((card, index) => (
@@ -67,7 +66,6 @@ export default function Tracks() {
             </p>
           </BackgroundGradient>
         ))}
-      </div>
       </div>
     </section>
   );
