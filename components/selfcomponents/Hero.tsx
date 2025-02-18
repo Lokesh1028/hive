@@ -22,7 +22,7 @@ const Hero = () => {
             </TextAnimate>
           </h1>
           <div className="mt-12 flex flex-wrap gap-4">
-            <InteractiveHoverButton onClick={handleClick}>Launch Now</InteractiveHoverButton>
+            <InteractiveHoverButton onClick={handleClick}>Register Now</InteractiveHoverButton>
           </div>
         </div>
         <div className="max-w-lg lg:max-w-xl xl:max-w-2xl">

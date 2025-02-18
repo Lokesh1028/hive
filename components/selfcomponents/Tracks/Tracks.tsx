@@ -31,7 +31,7 @@ const cardData = [
 
 export default function Tracks() {
   return (
-    <section className=" bg-contain overflow-hidden">
+    <section className="relative py-24 bg-black overflow-hidden">
       <StarsBackground/>
       <div id="about" className="py-12 pb-5 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

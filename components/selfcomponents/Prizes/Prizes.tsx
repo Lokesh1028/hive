@@ -4,28 +4,28 @@ import { StarsBackground } from "@/components/ui/stars-background";
 export default function FocusCardsDemo() {
   const cards = [
     {
-      title: "🏆 The Ultimate Champion - $1000 + Exclusive Perks & Swags!",
+      title: "🏆 The Ultimate Champion - $500",
       description: "Outthink, outcode, and outshine to seize the grand prize and unlock additional rewards!",
       image: "/images/1738779891152-mainremovebgpreview.png",
     },
     {
-      title: "🌐 Prize $100",
-      description: "Exclusive Perks & Swags!",
+      title: "Prize $100",
+      description: "Exclusive Web-3 track!",
       image: "/images/1738779722882-web3removebgpreview.png",
     },
     {
-      title: "🧠 Prize $100",
-      description: "Exclusive Perks & Swags!",
+      title: "Prize $100",
+      description: "Exclusive Gen-AI track!",
       image: "/images/1738779871376-genairemovebgpreview.png",
     },
     {
-      title: "💻 Prize $100",
-      description: "Exclusive Perks & Swags!",
+      title: "Prize $100",
+      description: "Exclusive Web-2 track!",
       image: "/images/1738779765233-web2removebgpreview.png",
     },
     {
-      title: "🚀 Prize $100",
-      description: "Exclusive Perks & Swags!",
+      title: "Prize $100",
+      description: "Exclusive Opensource track!",
       image: "/images/1738779933917-opensourceremovebgpreview.png",
     },
   ];
@@ -50,7 +50,7 @@ export default function FocusCardsDemo() {
               alt={cards[0].title}
               className="absolute inset-0 h-full w-full object-contain"
             />
-            <div className="absolute inset-x-0 bottom-0 h-1/6 bg-gradient-to-t from-white opacity-30"></div>
+            <div className="absolute inset-x-0 bottom-0 h-1/6 bg-gradient-to-t from-goldenrod opacity-30"></div>
           </div>
           <p className="text-base sm:text-xl mt-4 mb-1 text-neutral-200 font-poppins text-center">
             {cards[0].title}
@@ -69,7 +69,7 @@ export default function FocusCardsDemo() {
                   alt={card.title}
                   className="absolute inset-0 h-full w-full object-contain"
                 />
-                <div className="absolute inset-x-0 bottom-0 h-1/6 bg-gradient-to-t from-white opacity-20"></div>
+                <div className="absolute inset-x-0 bottom-0 h-1/6 bg-gradient-to-t from-goldenrod opacity-20"></div>
               </div>
               <p className="text-base sm:text-xl mt-4 mb-1 text-neutral-200 font-bold font-poppins text-center">
                 {card.title}

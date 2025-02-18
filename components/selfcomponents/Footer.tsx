@@ -15,13 +15,12 @@ const cardData = [
 export default function Footer() {
   return (
     <footer className="relative py-24 bg-black overflow-hidden">
-      <StarsBackground />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Logo & Description */}
           <div>
             <a href="/">
-              <img src="/images/Logo.png" alt="Hack to the Hive Logo" width={120} height={120} />
+              <img src="/logo 1.png" alt="Hack to the Hive Logo" width={120} height={120} />
             </a>
             <h3 className="font-anton text-2xl font-bold text-white mb-4">HACK TO THE HIVE</h3>
             <p className="text-white/60 font-poppins pb-4">

@@ -17,6 +17,7 @@ const committees = [
     name: "Finance Committee",
     members: [
       { role: "Head", name: "Sai Santhosh Dasu", size: "L", image: "/images/organisers/santosh.png" },
+      { role: "Co-Head", name: "Padavala Sai Venkata Lohith", size: "L", image: "/images/organisers/lohith.png" },
     ],
   },
   
@@ -41,6 +42,8 @@ const committees = [
     name: "Marketing & Promotions Committee",
     members: [
       { role: "Head", name: "Manaswi Amberi", size: "XL", image: "/images/organisers/manashwi.png" },
+      { role: "Co-Head", name: "Namratha Muthineni", size: "XL", image: "/images/organisers/namratha.png" },
+      
     ],
   },
   {
@@ -56,6 +59,8 @@ const committees = [
     name: "Media & Photography Committee",
     members: [
       { role: "Head", name: "Bharath Kummari", size: "XL", image: "/images/organisers/Bharath.png" },
+      { role: "Co-Head", name: "Sai Ganesh Ravuri", size: "XL", image: "/images/organisers/saiganesh.png" },
+      
     ],
   },
   
@@ -69,18 +74,21 @@ const committees = [
     name: "Public Outreach Committee",
     members: [
       { role: "Head", name: "Ashwan Uyyala", size: "M", image: "/images/organisers/ashwan.png" },
+      { role: "Co-Head", name: "Rohith Palika", size: "M", image: "/images/organisers/rohith.png" },
     ],
   },
   {
     name: "Event Coordination Committee",
     members: [
       { role: "Head", name: "Geetanjali Siddabathini", size: "S", image: "/images/organisers/geetanjali.png" },
+      { role: "Co-Head", name: "Srikar", size: "M", image: "/images/organisers/srikar.png" },
     ],
   },
   {
     name: "Design Committee",
     members: [
       { role: "Head", name: "Kiran Kummari", size: "M", image: "/images/organisers/kiran.png" },
+      { role: "Co-Head", name: "Rishitha Reddy Yeruvu", size: "M", image: "/images/organisers/rishitha.png" },
     ],
   },
 ];
@@ -88,7 +96,7 @@ const committees = [
 export default function Organisers() {
   return (
     <div id="organisers" className="py-24 bg-black flex justify-center items-center flex-col">
-      <StarsBackground/>
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="font-mono text-9xl font-extrabold text-white mb-8">
           <HyperText>Organisers</HyperText>

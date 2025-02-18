@@ -104,12 +104,13 @@ export default function PartnersPage() {
 
                 return (
                   <a
-                    key={index}
-                    href={partner.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`flex flex-col items-center justify-center p-4 border border-neutral-200 dark:border-neutral-700 rounded-lg hover:shadow-lg transition duration-300 ${containerClasses}`}
-                  >
+                  key={index}
+                  href={partner.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`flex flex-col items-center justify-center p-4 border border-white/20 bg-white/10 backdrop-blur-md rounded-lg shadow-lg hover:shadow-xl transition duration-300 ${containerClasses}`}
+                >
+                
                     {tier === "title" ? (
                       // Title partner box with powered by, partner name, and description
                       <div className="flex w-full h-full">
