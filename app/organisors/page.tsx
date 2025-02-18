@@ -88,7 +88,7 @@ const committees = [
     name: "Design Committee",
     members: [
       { role: "Head", name: "Kiran Kummari", size: "M", image: "/images/organisers/kiran.png" },
-      { role: "Co-Head", name: "Rishitha Reddy Yeruvu", size: "M", image: "/images/organisers/rishitha.png" },
+      { role: "Co-Head", name: "Rishitha Reddy Yeruva", size: "M", image: "/images/organisers/rishitha.png" },
     ],
   },
 ];
