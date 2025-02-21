@@ -7,8 +7,12 @@ import { StarsBackground } from "@/components/ui/stars-background";
 export function PastEvents() {
   return (
     <section className="relative min-h-screen bg-black overflow-hidden">
-      <StarsBackground />
-      <div id="about" className="py-24 pb-5 bg-black bg-opacity-60">
+      {/* Stars in the background without overlapping cards */}
+      <div className="absolute inset-0 z-0">
+        <StarsBackground />
+      </div>
+
+      <div id="about" className="relative z-10 py-24 pb-5 bg-black bg-opacity-60">
         {/* Full width container with padding to leave some space on the sides */}
         <div className="w-full px-4">
           <div className="text-center">
@@ -18,8 +22,9 @@ export function PastEvents() {
           </div>
         </div>
       </div>
-      {/* BentoGrid container with responsive padding */}
-      <BentoGrid className="w-full sm:w-3/4 md:w-4/5 lg:w-3/4 px-4 mx-auto">
+
+      {/* BentoGrid container with z-index to keep it above the stars */}
+      <BentoGrid className="relative z-10 w-full sm:w-3/4 md:w-4/5 lg:w-3/4 px-4 mx-auto">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
@@ -27,9 +32,7 @@ export function PastEvents() {
             description={item.description}
             header={item.header}
             className={cn(
-              // For larger screens, some items span two columns
               i === 3 || i === 6 ? "md:col-span-2" : "",
-              // Responsive min-height: 12rem on mobile, 16rem on medium and up
               "min-h-[12rem] md:min-h-[16rem] rounded-xl overflow-hidden"
             )}
           />
@@ -47,7 +50,7 @@ const Skeleton = ({ imageUrl }: { imageUrl: string }) => (
 
 const items = [
   {
-    title: "Hackthons",
+    title: "Hackathons",
     description: `Dynamic coding challenges where participants collaborated to develop innovative solutions under time constraints.`,
     header: <Skeleton imageUrl="/images/WhatsApp Image 2025-02-06 at 08.19.58_7977c19e.jpg" />,
   },
@@ -68,7 +71,7 @@ const items = [
   },
   {
     title: "Coding Camps",
-    description: "Immersive learning experiences designed to enhance programming skills through real-world projects and expert mentorship.",
+    description: "Immersive learning experiences designed to enhance programming skills through real-world projects and expert mentorship.",
     header: <Skeleton imageUrl="/images/5.jpg" />,
   },
 ];

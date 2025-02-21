@@ -51,14 +51,14 @@ const cardData = [
     linkedin: "https://www.linkedin.com/in/exportpng/",
     twitter: "https://x.com/exportpng",
   },
-  {
+  /*{
     name: "Srishti Sharma",
     role: "Chief Executive Officer",
     company: "Automaxis",
     image: "/images/speakers/sristi_sharma.png",
     linkedin: "https://www.linkedin.com/in/srishti-sharma-9aa40651/",
     twitter: "https://x.com/SrishtiSharma_",
-  },
+  },*/
   {
     name: "Puspanjali Sarma",
     role: "Senior Manager",

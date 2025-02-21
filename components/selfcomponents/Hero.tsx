@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div className="relative min-h-screen bg-black overflow-hidden">
       <StarsBackground />
-      
+      <ShootingStars />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-[20%] flex items-center justify-between">
         <div className="max-w-3xl text-left">
           <h1 className="font-mono text-[9rem] leading-none text-white tracking-tighter animate-title">

@@ -9,20 +9,20 @@ const FAQ = () => {
  
 const faqs = [
   {
-    question: "Will there be food or refreshments?",
-    answer: "Yes, we will be providing food and refreshments for all attendants, more information to come!"
+    question: "Who can participate in the hackathon?",
+    answer: "The hackathon is open to students, professionals, and tech enthusiasts worldwide. Participants must form teams of 2-4 members. Each team must have a team leader who will be the primary point of contact."
   },
   {
-    question: "Who can attend?",
-    answer: "Anyone who is attending a university! Hackers must be 18+ years old and must be attending a college or university to participate."
+    question: "What is the registration fee, and what does it include?",
+    answer: "The registration fee is ₹750 per person, covering access to the 30-hour hackathon, workshops, and additional perks like swags and networking opportunities."
   },
   {
     question: "Is there accommodation?",
     answer: "Yes, accommodation is available for participants; however, it must be arranged separately. Participants are responsible for booking and paying for their accommodation. Please note that the cost of accommodation is not included in the hackathon registration fee, and participants must cover these expenses on their own. We encourage you to make arrangements early to ensure availability during the event."
   },
   {
-    question: "How big can teams be?",
-    answer: "A team must comprise a minimum of 2 members and can include upto a maximum of 5 members."
+    question: "How do I register, and what platform will be used for submissions?",
+    answer: "Registrations and project submissions will be handled through Hack to Skill. Keep an eye on our official channels for the registration link."
   },
   {
     question: "What if I still have questions?",
